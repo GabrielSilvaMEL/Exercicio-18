@@ -101,7 +101,7 @@ if (op == "1"){
     string i = Console.ReadLine();
     Console.WriteLine("Digite um whats para Incluir");
     string w = Console.ReadLine();
-    Insere(ref lista, n, i , w)
+    Insere(ref lista, n, i , w);
 }
 if (op == "2"){
     Console.WriteLine("Você escolheu Alterar pelo nome");
