@@ -75,7 +75,8 @@ void Exibir(tp_no l){
         Console.WriteLine("Nome" + aux.nome);
         Console.WriteLine("Registro" + aux.idade);
         Console.WriteLine("Registro" + aux.whats);
-
+        i = i + 1;
+        aux = aux.prox;
     }
 }
 
