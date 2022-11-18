@@ -104,26 +104,27 @@ if (op == "1"){
     string w = Console.ReadLine();
     Insere(ref lista, n, i , w);
 }
+
 if (op == "2"){
     Console.WriteLine("Você escolheu Alterar pelo nome");
     Console.WriteLine("Digite um nome para Alterar");
     string np = Console.ReadLine();
     Altera(lista);
 }
+
 if (op == "3"){
     Console.WriteLine("Você escolheu Excluir pelo nome");
     Console.WriteLine("Digite um nome para Excluir");
     string n = Console.ReadLine();
     Excluir(ref lista);
 }
+
 if (op == "4"){
     Console.WriteLine("Você escolheu Excluir pelo nome");
     Console.WriteLine("Digite um nome para Excluir");
     string n = Console.ReadLine();
-    Excluir(ref lista);
+    Exibir(lista);
 }
-
-
 
 class tp_no
 {
