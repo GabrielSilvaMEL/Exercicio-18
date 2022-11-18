@@ -120,9 +120,7 @@ if (op == "3"){
 }
 
 if (op == "4"){
-    Console.WriteLine("Você escolheu Excluir pelo nome");
-    Console.WriteLine("Digite um nome para Excluir");
-    string n = Console.ReadLine();
+    Console.WriteLine("Você escolheu Exibir todos os registros");
     Exibir(lista);
 }
 
