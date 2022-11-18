@@ -128,5 +128,4 @@ class tp_no
 {
     public string nome, idade, whats;
     public tp_no prox;
-
 }
