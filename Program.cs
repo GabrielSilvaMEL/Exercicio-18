@@ -80,10 +80,8 @@ void Exibir(tp_no l){
     }
 }
 
-
 // Principal (main)
-tp_no lista = null;
-tp_no elem;
+tp_no raiz = null;
 
     Console.WriteLine("MENU PRINCIPAL ");
     Console.WriteLine("1 - Inclui");
